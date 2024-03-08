@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int printRightBottomTriangleIndices(int rows, int columns) {
-    int totalCells = rows * columns;
+    int totalCells = rows * columns; 
     int count = 0;
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {
