@@ -6,10 +6,8 @@ int printRightBottomTriangleIndices(int rows, int columns) {
     int count = 0;
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {
-            if (j >= i) { 
                 cout << i << "," << j << endl;
                 ++count;
-            }
         }
     }
     return count;
