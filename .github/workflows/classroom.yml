@@ -35,6 +35,7 @@ jobs:
         expected-output: "[\\w,\\W]*0[\\w,\\W]*1[\\w,\\W]*1[\\w,\\W]*0[\\w,\\W]*1[\\w,\\W]*1[\\w,\\W]*"
         comparison-method: regex
         timeout: 10
+        max-score: 10
     - name: Autograding Reporter
       uses: education/autograding-grading-reporter@v1
       env:
